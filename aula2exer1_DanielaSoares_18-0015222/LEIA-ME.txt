@@ -1,0 +1,19 @@
+Como rodar o programa
+1. No terminal insiria esse comando `gcc -o prog aula1exer1_DanielaSoares_18-0015222.c` e depois `./prog`
+2. Existem 3 opções dentro do programa: 
+	1 - Cadastrar nova pessoa e seus veiculos.
+	2 - Listar pessoas e veiculos ordenados por nome
+	3 - Listar pessoas e veiculos ordenados por CPF
+	4 - Sair
+ 
+OBS:
+- Ao cadastrar pessoas, todas elas são salvas em um arquivo chamado "pessoas.txt".
+- Ao cadastrar carros, todos eles são salvos em um arquivo chamado "veiculos.txt".
+- Esses arquivos são criados automaticamente, na pasta raíz na qual o c�digo foi compilado.
+- E a listagem acontece também a partir desses arquivos.
+
+- Para melhor visualização da lista ordenada, foi separado uma listagem ordenada por nome e outra por CPF
+- Para melhor funcionamento do pragrama foi criada algumas validações como o usuario ter apena um CPF com 11 digitos 
+- Outra validação criada é que não é possivel cadastrar 2 usuario com o mesmo CPF e cadastrar um usuario sem carro
+
+ 
